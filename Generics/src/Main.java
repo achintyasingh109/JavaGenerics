@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
         ArrayList<Student> arr =new ArrayList<>();
         Scanner sc=new Scanner(System.in);
+        // For sorting pass age name or id.
         String x=sc.next();
         arr.add(new Student(22, "Anmol",  1));
         arr.add(new Student(23, "Shashwat",  2));
